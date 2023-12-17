@@ -33,12 +33,25 @@ section {
 /*Move this section down later*/
 .pizzaTitleTab{
     display:inline-block;
-    margin-left:67px;
+    margin-left:123px;
+}
+.pizzaTextCenter{
+    text-align: center;
+    padding-top: 1%;
 }
 
 .pizzaTab{
     display:inline-block;
     margin-left:150px;
+}
+.pizzaImgTab img {
+    display:block;
+    float:right;
+    padding-top:7%;
+}
+.pizzaDoubleTab{
+    display:inline-block;
+    margin-left:300px;
 }
 
 .pizza-item {
@@ -49,16 +62,8 @@ section {
 .pizzaMenu-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 4%; 
+    padding-top: 2px; 
 }
-.pizzaTab img{
-    display:flex;
-    justify-content: right;
-    margin-left:300px;
-    float:right;
-    vertical-align:right;
-}
-
 
 /**/
 #menu-section {
@@ -199,12 +204,12 @@ li a:hover {
     display: block;
     }
 
-    .overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    }
+.overlay-text {
+position: absolute;
+top: 50%;
+left: 50%;
+color: white;
+font-size: 24px;
+text-align: center;
+font-family: Arial, sans-serif;
+}
