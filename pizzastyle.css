@@ -1,0 +1,215 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding: 1em;
+    justify-content: center;
+}
+
+header img {
+    max-width: 100%; 
+    height: auto;
+    margin-right: 10px;
+}
+
+section {
+    width: 800px; 
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px; 
+    padding: 20px;
+}
+#wrapper{
+    margin:auto;
+     width:100%;
+ }
+/*Move this section down later*/
+.pizzaTitleTab{
+    display:inline-block;
+    margin-left:123px;
+}
+.pizzaTextCenter{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.pizzaTab{
+    display:inline-block;
+    margin-left:150px;
+}
+.pizzaImgTab img {
+    display:block;
+    float:right;
+    padding-top:7%;
+}
+.pizzaDoubleTab{
+    display:inline-block;
+    margin-left:300px;
+}
+
+.pizza-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.pizzaMenu-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px; 
+}
+
+/**/
+#menu-section {
+    max-width: 600px;
+}
+
+#specials-section {
+    max-width: 100px;
+}
+
+h2 {
+    color: #333;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.menu-item img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.itemTab {
+    display: inline-block;
+    margin-left: 320px;
+}
+
+.singleMealTab {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.chipsTab {
+    display: inline-block;
+    margin-left: 220px;
+}
+
+.sizeTab {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.priceTab {
+    display: inline-block;
+    margin-left: 160px;
+}
+
+.pizza-button { 
+    display: block;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.pizza-button img {
+    width: 900px; 
+    height: 300px; 
+}
+
+#image {
+    border-collapse: collapse;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+    
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.left {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+    
+li {
+    float: right;
+}
+    
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    font-size: large;
+}
+    
+li a:hover {
+    color: #767676;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust the max-width as needed */
+    }
+
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+
+.overlay-text {
+position: absolute;
+top: 50%;
+left: 50%;
+color: white;
+font-size: 24px;
+text-align: center;
+font-family: Arial, sans-serif;
+}
