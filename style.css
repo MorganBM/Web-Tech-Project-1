@@ -26,7 +26,41 @@ section {
     margin: 0 10px; 
     padding: 20px;
 }
+#wrapper{
+    margin:auto;
+     width:100%;
+ }
+/*Move this section down later*/
+.pizzaTitleTab{
+    display:inline-block;
+    margin-left:67px;
+}
 
+.pizzaTab{
+    display:inline-block;
+    margin-left:150px;
+}
+
+.pizza-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.pizzaMenu-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%; 
+}
+.pizzaTab img{
+    display:flex;
+    justify-content: right;
+    margin-left:300px;
+    float:right;
+    vertical-align:right;
+}
+
+
+/**/
 #menu-section {
     max-width: 600px;
 }
@@ -66,14 +100,6 @@ h2 {
 .singleMealTab {
     display: inline-block;
     margin-left: 120px;
-}
-.pizzaTitleTab{
-    display:inline-block;
-    margin-left:67px;
-}
-.pizzaTab{
-    display:inline-block;
-    margin-left:150px;
 }
 
 .chipsTab {
