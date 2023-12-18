@@ -30,7 +30,42 @@ section {
     margin:auto;
      width:100%;
  }
+/*Move this section down later*/
+.pizzaTitleTab{
+    display:inline-block;
+    margin-left:123px;
+}
+.pizzaTextCenter{
+    text-align: center;
+    padding-top: 1%;
+}
 
+.pizzaTab{
+    display:inline-block;
+    margin-left:150px;
+}
+.pizzaImgTab img {
+    display:block;
+    float:right;
+    padding-top:7%;
+}
+.pizzaDoubleTab{
+    display:inline-block;
+    margin-left:300px;
+}
+
+.pizza-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.pizzaMenu-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px; 
+}
+
+/**/
 #menu-section {
     max-width: 600px;
 }
