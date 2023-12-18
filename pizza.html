@@ -5,70 +5,143 @@
     <link rel="stylesheet" href="pizzastyle.css">
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="feedback.html">Feedback</a></li>
-            <li><a href="pizza.html">Pizza *NEW!*</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a class="active" href="index.html">Home</a></li>
-        </ul>
-        </header>   
     <div id="wrapper">
-        <div class="center">
-            <div class="pizzaTextCenter"><h3>Create your own</h3></div>
-            <div class="pizzaImgTab"><p><img src="Pics/10-16pizza.jpg" alt="Img not found" width=450px height=300px></p></div>
-            <div class="pizzaMenu-container"><section>
+        <header>
+            <ul>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="pizza.html">Pizza *NEW!*</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
+            </ul>
+            </header>   
+
+
+            <h3 style=text-align:center;>Create your own freshly made pizza using 100% Irish ingreidients<h3></div>    	
+            <div class="middle">
+                <div class="pizzaMenu-container"><section>
+                <div class="pizzafloat"><p><img src="Pics/10-16pizza.jpg" alt="Img not found" width=430px height=300px></p></div>
                 <div class="pizza-item">
                 <h3>Pizza Size <span class="pizzaTitleTab">Price</span></h3>
                 </div>
                 <div class="pizza-item">
-                        <p><input type="radio" id="10inch" name="pizzaSize" value="10Inch"> <label for="10">10 Inch</label><span class="pizzaTab">€8</span></p>
+                        <p><input type="radio" id="pizzaSize" name="pizzaSize" value="8"> <label for="10">10 Inch</label><span class="pizzaTab">€8</span></p>
                 </div>
                 <div class="pizza-item">
-                    <p><input type="radio" id="12inch" name="pizzaSize" value="12Inch"> <label for="12">12 Inch</label><span class="pizzaTab">€10</span></p>
+                    <p><input type="radio" id="pizzaSize" name="pizzaSize" value="10"> <label for="12">12 Inch</label><span class="pizzaTab">€10</span></p>
                 </div>
                 <div class="pizza-item">
-                    <p><input type="radio" id="14inch" name="pizzaSize" value="14Inch"> <label for="14">14 Inch</label><span class="pizzaTab">€12</span></p>
+                    <p><input type="radio" id="pizzaSize" name="pizzaSize" value="12"> <label for="14">14 Inch</label><span class="pizzaTab">€12</span></p>
                 </div>
                 <div class="pizza-item">
-                    <p><input type="radio" id="16inch" name="pizzaSize" value="16Inch"> <label for="16">16 Inch</label><span class="pizzaTab">€14</span></p>
+                    <p><input type="radio" id="pizzaSize" name="pizzaSize" value="14"> <label for="16">16 Inch</label><span class="pizzaTab">€14</span></p>
                 </div>    
             </div> </section>
-            
+
+            <div class="clearfloat"></div>
+
             <div class="pizzaTextCenter"><h3>Select Toppings</h3></div>
-            <div class="pizzaImgTab"><p><img src="Pics/pizzatoppings.jpg" alt="Img not found" width=450px height=300px></p></div>
             <div class="pizzaMenu-container"><section>
-                <div class="pizzaTextCenter">
+                <div class="pizzafloat"><p><img src="Pics/pizzatoppings.jpg" alt="Img not found" width=400px height=300px></p></div>
+                
                     <div class="pizza-item">
-                    <h3>Toppings <span class="pizzaTitleTab">€1 Per Topping</span></h3>
+                    <h3>€1 Per Topping</h3>
                     </div>
-                    <div class="pizza-item">
-                            <p><input type="checkbox" id="chicken" name="topping" value="chicken"> <label for="Chicken">Chicken </label></p>
+                <ul>
+                    <li style="float: left;"><div class="pizza-item">
+                        <p><input type="checkbox" id="topping" name="topping" value="chicken"> <label for="Chicken">Chicken </label></p>
+                        <p style="padding-left: 20px;"><input type="checkbox" id="topping" name="topping" value="pepperoni"> <label for="Pepperoni">Pepperoni</label></p>
+                     </div></li><div class="clearfloat"></div>
+
+                    <li style="float: left;"> <div class="pizza-item">
+                        <p><input type="checkbox" id="topping" name="topping" value="olive"> <label for="Olive">Olive </label></p>
+                        <p style="padding-left:41px;"> <input type="checkbox" id="topping" name="topping" value="mushroom"> <label for="Mushroom">Mushroom </label></p>
+                    </div></li><div class="clearfloat"></div>
+
+                    <li style="float: left;"><div class="pizza-item">
+                        <p><input type="checkbox" id="topping" name="topping" value="pineapple"> <label for="Pineapple">Pineapple </label></p>
+                        <p style="padding-left:6px;"><input type="checkbox" id="topping" name="topping" value="sweetcorn"> <label for="Sweetcorn">Sweetcorn </label></p>
+                    </div></li><div class="clearfloat"></div>
+
+                    <li style="float: left;"><div class="pizza-item">
+                        <p><input type="checkbox" id="topping" name="topping" value="pepper"> <label for="Pepper">Pepper </label></p>
+                        <p style="padding-left:26px;"><input type="checkbox" id="topping" name="topping" value="anchovies"> <label for="Anchovies">Anchovies</label></p>
                     </div>
-                    <div class="pizza-item">
-                        <p><input type="checkbox" id="pepperoni" name="topping" value="pepperoni"> <label for="Pepperoni">Pepperoni </label></p>
-                     </div>
-                    <div class="pizza-item">
-                        <p><input type="checkbox" id="olive" name="topping" value="olive"> <label for="Olive">Olive </label></p>
-                    </div>
-                    <div class="pizza-item">
-                        <p><input type="checkbox" id="mushroom" name="topping" value="mushroom"> <label for="Mushroom">Mushroom </label></p>
-                    </div>
-                    <div class="pizza-item">
-                        <p><input type="checkbox" id="pineapple" name="topping" value="pineapple"> <label for="Pineapple">Pineapple </label></p>
-                    </div>
-                    <div class="pizza-item">
-                        <p><input type="checkbox" id="sweetcorn" name="topping" value="sweetcorn"> <label for="Sweetcorn">sweetcorn </label>
-                    </div>
-                    <div class="pizza-item">
-                        <p><input type="checkbox" id="pepper" name="topping" value="pepper"> <label for="Pepper">Pepper </label>
-                    </div>
+                </ul>
                     
                 </div>  
             </div> </section>
-            
+            <div class="clearfloat"></div>
         </div>
+        
+        <div align="center" style="padding-top: 20px;">
+            <section style="width:500px;">
+            <form id="orderTotal">
+                <h1>Order Pizza</h1>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <br>
+                <label for="location">Your Location:</label>
+                <input type="location" id="location" name="location">
+                <br>
+                <br>
+                <label for="cardinfo">Card Information:</label>
+                <input type="cardinfo" id="cardinfo" name="cardinfo">
+                <br>
+                <br>
+                <button type="button" onclick="total()">Place Order</button>
+                
+            </form>
+            </section>
+        </div>
+        
+
+
+
+
+
+        <div align="center" style="padding-top: 20px;">
+            <section style="width:400px;">
+            <form id="feedbackForm">
+                <h1>Feedback Form</h1>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <br>
+                <label for="feedback">Your Feedback:</label>
+                <textarea id="feedback" name="feedback"></textarea>
+                <br>
+                <br>
+                <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+            </form>
+        
+        <script>
+            function submitFeedback() {
+                document.getElementById('submit').innerHTML = "Thank you! Your feedback has been submitted.";
+                document.getElementById('name').value = "";
+                document.getElementById('email').value = "";
+                document.getElementById('feedback').value = "";
+            }
+        </script>
+        
+        <p style="text-align: center;" id="submit"></p>
+        </div>  </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <p style="font-size:10px;">© Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" 
+        for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted
+        by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the 
+        balance in favor of fair use.</p>
     </div>
-       
+
+    <script src="pizza.js"></script>
+
 </body>
 </html>
