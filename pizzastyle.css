@@ -28,12 +28,17 @@ section {
 }
 #wrapper{
     margin:auto;
-     width:100%;
+    width:100%;
  }
 /*Move this section down later*/
 .pizzaTitleTab{
     display:inline-block;
-    margin-left:123px;
+    margin-left:25px;
+}
+.pizzaTitle {
+    position: relative;
+    text-align: center;
+    padding-bottom: 500px;
 }
 .pizzaTextCenter{
     text-align: center;
@@ -42,12 +47,15 @@ section {
 
 .pizzaTab{
     display:inline-block;
-    margin-left:150px;
+    margin-left:50px;
 }
-.pizzaImgTab img {
+.pizzafloat img {
     display:block;
     float:right;
-    padding-top:7%;
+
+}
+.clearfloat{
+clear: both;
 }
 .pizzaDoubleTab{
     display:inline-block;
