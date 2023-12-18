@@ -28,9 +28,8 @@ section {
 }
 #wrapper{
     margin:auto;
-     width:100%;
- }
-
+    width:100%;
+}
 #menu-section {
     max-width: 600px;
 }
@@ -62,16 +61,6 @@ h2 {
     margin-right: 10px;
 }
 
-.itemTab {
-    display: inline-block;
-    margin-left: 320px;
-}
-
-.singleMealTab {
-    display: inline-block;
-    margin-left: 120px;
-}
-
 .chipsTab {
     display: inline-block;
     margin-left: 220px;
@@ -82,10 +71,107 @@ h2 {
     margin-left: 80px;
 }
 
-.priceTab {
+.priceTab1 {
     display: inline-block;
     margin-left: 160px;
 }
+
+.priceTab2 {
+    display: inline-block;
+    margin-left: 140px;
+}
+
+.priceTab3 {
+    display: inline-block;
+    margin-left: 135px;
+}
+
+
+.itemTab1 {
+    display: inline-block;
+    margin-left: 320px;
+}
+
+.itemTab2 {
+    display: inline-block;
+    margin-left: 325px;
+}
+
+.itemTab3 {
+    display: inline-block;
+    margin-left: 330px;
+}
+
+.itemTab4 {
+    display: inline-block;
+    margin-left: 195px;
+}
+
+.itemTab5 {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.itemTab6 {
+    display: inline-block;
+    margin-left: 210px;
+}
+
+.itemTab7 {
+    display: inline-block;
+    margin-left: 121px;
+}
+
+.itemTab8 {
+    display: inline-block;
+    margin-left: 124px;
+}
+
+.itemTab9 {
+    display: inline-block;
+    margin-left: 245px;
+}
+
+.itemTab10 {
+    display: inline-block;
+    margin-left: 255px;
+}
+
+.singleMealTab {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.picTab {
+    display: inline-block;
+    margin-left: 80px;
+}
+.sidesTab {
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.sidesPriceTab1 {
+    display: inline-block;
+    margin-left: 415px;
+}
+
+.sidesPriceTab2 {
+    display: inline-block;
+    margin-left: 442px;
+}
+
+.sidesPriceTab3 {
+    display: inline-block;
+    margin-left: 510px;
+}
+
+.sidesPriceTab4 {
+    display: inline-block;
+    margin-left: 362px;
+}
+
+
 
 .pizza-button { 
     display: block;
@@ -159,7 +245,7 @@ li a:hover {
 .image-container {
     position: relative;
     width: 100%;
-    max-width: 600px; /* Adjust the max-width as needed */
+    max-width: 600px;
     }
 
 
@@ -169,12 +255,22 @@ li a:hover {
     display: block;
     }
 
-.overlay-text {
-position: absolute;
-top: 50%;
-left: 50%;
-color: white;
-font-size: 24px;
-text-align: center;
-font-family: Arial, sans-serif;
+    .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    }
+
+    .popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
 }
