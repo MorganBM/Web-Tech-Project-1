@@ -35,7 +35,10 @@
                 <div class="pizza-item">
                     <p><input type="radio" id="pizzaSize" name="pizzaSize" value="14"> <label for="16">16 Inch</label><span class="pizzaTab">€14</span></p>
                 </div>    
+                
             </div> </section>
+
+            </script>
 
             <div class="clearfloat"></div>
 
@@ -48,26 +51,27 @@
                     </div>
                 <ul>
                     <li style="float: left;"><div class="pizza-item">
-                        <p><input type="checkbox" id="topping" name="topping" value="chicken"> <label for="Chicken">Chicken </label></p>
-                        <p style="padding-left: 20px;"><input type="checkbox" id="topping" name="topping" value="pepperoni"> <label for="Pepperoni">Pepperoni</label></p>
+                        <p><input type="checkbox" id="topping1" name="topping1" value="1"> <label for="Chicken">Chicken </label></p>
+                        <p style="padding-left: 20px;"><input type="checkbox" id="topping2" name="topping2" value="1"> <label for="Pepperoni">Pepperoni</label></p>
                      </div></li><div class="clearfloat"></div>
 
                     <li style="float: left;"> <div class="pizza-item">
-                        <p><input type="checkbox" id="topping" name="topping" value="olive"> <label for="Olive">Olive </label></p>
-                        <p style="padding-left:41px;"> <input type="checkbox" id="topping" name="topping" value="mushroom"> <label for="Mushroom">Mushroom </label></p>
+                        <p><input type="checkbox" id="topping3" name="topping3" value="1"> <label for="Olive">Olive </label></p>
+                        <p style="padding-left:41px;"> <input type="checkbox" id="topping4" name="topping4" value="1"> <label for="Mushroom">Mushroom </label></p>
                     </div></li><div class="clearfloat"></div>
 
                     <li style="float: left;"><div class="pizza-item">
-                        <p><input type="checkbox" id="topping" name="topping" value="pineapple"> <label for="Pineapple">Pineapple </label></p>
-                        <p style="padding-left:6px;"><input type="checkbox" id="topping" name="topping" value="sweetcorn"> <label for="Sweetcorn">Sweetcorn </label></p>
+                        <p><input type="checkbox" id="topping5" name="topping5" value="1"> <label for="Pineapple">Pineapple </label></p>
+                        <p style="padding-left:6px;"><input type="checkbox" id="topping6" name="6" value="1"> <label for="Sweetcorn">Sweetcorn </label></p>
                     </div></li><div class="clearfloat"></div>
 
                     <li style="float: left;"><div class="pizza-item">
-                        <p><input type="checkbox" id="topping" name="topping" value="pepper"> <label for="Pepper">Pepper </label></p>
-                        <p style="padding-left:26px;"><input type="checkbox" id="topping" name="topping" value="anchovies"> <label for="Anchovies">Anchovies</label></p>
+                        <p><input type="checkbox" id="topping7" name="topping7" value="1"> <label for="Pepper">Pepper </label></p>
+                        <p style="padding-left:26px;"><input type="checkbox" id="topping8" name="topping8" value="1"> <label for="Anchovies">Anchovies</label></p>
                     </div>
                 </ul>
-                    
+                <button type="button" onclick="topping()">Submit</button> <br>  
+                <h4 style="color:green" id="result"></h4> 
                 </div>  
             </div> </section>
             <div class="clearfloat"></div>
@@ -90,7 +94,7 @@
                 <br>
                 <br>
                 <button type="button" onclick="total()">Place Order</button>
-                
+                <p id="money"></p>
             </form>
             </section>
         </div>
