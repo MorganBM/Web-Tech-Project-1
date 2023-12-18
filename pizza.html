@@ -3,6 +3,7 @@
 <head>
     <title>Pizza</title>
     <link rel="stylesheet" href="pizzastyle.css">
+    <link rel="icon" href="Pics/pizzaPic.png" type="image">
 </head>
 <body>
     <div id="wrapper">
@@ -24,16 +25,16 @@
                 <h3>Pizza Size <span class="pizzaTitleTab">Price</span></h3>
                 </div>
                 <div class="pizza-item">
-                        <p><input type="radio" id="pizzaSize" name="pizzaSize" value="8"> <label for="10">10 Inch</label><span class="pizzaTab">€8</span></p>
+                        <p><input type="radio" id="pizzaSize1" name="pizzaSize" value="8"> <label for="10">10 Inch</label><span class="pizzaTab">€8</span></p>
                 </div>
                 <div class="pizza-item">
-                    <p><input type="radio" id="pizzaSize" name="pizzaSize" value="10"> <label for="12">12 Inch</label><span class="pizzaTab">€10</span></p>
+                    <p><input type="radio" id="pizzaSize2" name="pizzaSize" value="10"> <label for="12">12 Inch</label><span class="pizzaTab">€10</span></p>
                 </div>
                 <div class="pizza-item">
-                    <p><input type="radio" id="pizzaSize" name="pizzaSize" value="12"> <label for="14">14 Inch</label><span class="pizzaTab">€12</span></p>
+                    <p><input type="radio" id="pizzaSize3" name="pizzaSize" value="12"> <label for="14">14 Inch</label><span class="pizzaTab">€12</span></p>
                 </div>
                 <div class="pizza-item">
-                    <p><input type="radio" id="pizzaSize" name="pizzaSize" value="14"> <label for="16">16 Inch</label><span class="pizzaTab">€14</span></p>
+                    <p><input type="radio" id="pizzaSize4" name="pizzaSize" value="14"> <label for="16">16 Inch</label><span class="pizzaTab">€14</span></p>
                 </div>    
                 
             </div> </section>
@@ -69,9 +70,7 @@
                         <p><input type="checkbox" id="topping7" name="topping7" value="1"> <label for="Pepper">Pepper </label></p>
                         <p style="padding-left:26px;"><input type="checkbox" id="topping8" name="topping8" value="1"> <label for="Anchovies">Anchovies</label></p>
                     </div>
-                </ul>
-                <button type="button" onclick="topping()">Submit</button> <br>  
-                <h4 style="color:green" id="result"></h4> 
+                </ul> 
                 </div>  
             </div> </section>
             <div class="clearfloat"></div>
@@ -80,6 +79,7 @@
         <div align="center" style="padding-top: 20px;">
             <section style="width:500px;">
             <form id="orderTotal">
+                <h3 id="money"></h3>
                 <h1>Order Pizza</h1>
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name">
@@ -93,12 +93,17 @@
                 <input type="cardinfo" id="cardinfo" name="cardinfo">
                 <br>
                 <br>
-                <button type="button" onclick="total()">Place Order</button>
-                <p id="money"></p>
+                <label for="location">Location:</label>
+                <input type="location" id="location" name="location">
+                <br>
+                <br>
+                <button type="button" onclick="orderup()">Place Order</button>
+                <h3 id="orderup"></h3>
+                <body onclick="total()"></body>
             </form>
             </section>
         </div>
-        
+     
 
 
 

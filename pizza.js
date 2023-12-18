@@ -4,10 +4,10 @@
 function total(){
 
 
-    var y1=document.getElementById("pizzaSize1");
-    var y2=document.getElementById("pizzaSize2");
-    var y3=document.getElementById("pizzaSize3");
-    var y4=document.getElementById("pizzaSize4");
+    var y1=document.getElementById("pizzaSize1").value;
+    var y2=document.getElementById("pizzaSize2").value;
+    var y3=document.getElementById("pizzaSize3").value;
+    var y4=document.getElementById("pizzaSize4").value;
 
     
     
@@ -23,14 +23,7 @@ function total(){
     if(document.getElementById("pizzaSize4").checked){
         var pizzaprice=parseInt(y4)
     }
-    document.getElementById("money").innerHTML= pizzaprice;
-  
-
-}
-
-
-function topping(){
-   
+    
 
     var x1 = document.getElementById("topping1").value;  
     var x2 = document.getElementById("topping2").value;  
@@ -76,7 +69,51 @@ function topping(){
         tTop=parseInt(tTop+t8)
     }
       var totaltop=parseInt(tTop);
-    return document.getElementById("result").innerHTML = totaltop;  
+    
+      
+      if(pizzaprice>="8"){
+      return document.getElementById("money").innerHTML= "€"+(pizzaprice+totaltop)+" is your total";
+      }
+
 }
+
+function orderup() {
+
+    var max=101;
+    var min=1;
+    
+    const num=Math.floor(Math.random()*(max-min))+min;
+  
+    
+    if(document.getElementById("pizzaSize1").checked){
+        document.getElementById('orderup').innerHTML = "Thank you! Your order will be delivered soon. Your order number is "+(num);
+    }
+    if(document.getElementById("pizzaSize2").checked){
+        document.getElementById('orderup').innerHTML = "Thank you! Your order will be delivered soon. Your order number is "+(num);
+    }
+    if(document.getElementById("pizzaSize3").checked){
+        document.getElementById('orderup').innerHTML = "Thank you! Your order will be delivered soon. Your order number is "+(num);
+    }
+    if(document.getElementById("pizzaSize4").checked){
+        document.getElementById('orderup').innerHTML = "Thank you! Your order will be delivered soon. Your order number is "+(num);
+    }
+
+    
+
+    
+    
+   
+
+    return Math.floor(Math.random()*33)+6;
+   
+
+}
+
+
+
+
+
+
+
 
 
